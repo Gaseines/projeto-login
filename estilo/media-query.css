@@ -2,29 +2,52 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 
+    body{
+        background-image: radial-gradient( #259179f6, #480072);
+    }
     section#login{
-        width: 767px;
-        height: 364px;
+        width: 90vw;
+        height: 330px;
     }
 
     div#imagem{
-        display: inline-block;
-        position: absolute;
-        width: 300px;
-        height: 364px;
+        float: left;
+        width: 30%;
+        height: 100%;
         border-radius: 20px 0px 0px 20px;
         
     }
     div#form{
-        display: inline-block;
-        position: right;
-        margin-left: 310px;
+        float: right;
+        width: 70%;
+        
     }
+    
 }
 
 @media screen and (min-width: 1200px) {
     section#login{
-        width: 817px;
+        width: 990px;
+        height: 330px;
         
     }
+
+    div#imagem{
+        float: right;
+        width: 30%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+        
+    }
+    div#form{
+        float: left;
+        width: 70%;
+        height: 100%;
+        
+    }
+
+    body{
+        background-image: radial-gradient( #259179f6, #480072);
+    }
+    
 }

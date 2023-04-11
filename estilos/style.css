@@ -43,6 +43,9 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 div#imagem{
     background: #480072 url(../imagens/pexels-oleksandr-tiupa-192136\ \(1\).jpg);
@@ -65,6 +68,7 @@ div#form h1{
 }
 p#txt{
     padding: 10px;
+    text-align: center;
 }
 div#form p#dado1{
     background-color: #480072;
@@ -74,12 +78,16 @@ div#form p#dado1{
     height: 40px;
     box-shadow: 1px 1px 3px black;
 }
-input#imail{
-    height: 80%;
+input.btn{
+    height: 90%;
+    width: calc(100% - 40px);
     border-radius: 10px;
     background-color: #25947c86;
+    padding: 5px;
+    transform: translateY(-9.5px);
     
 }
+
 span#person{
     color: white;
     font-size: 2em;
@@ -98,18 +106,13 @@ div#form p#dado2{
     box-shadow: 1px 1px 1px #0000009a;
 }
 
-input#isenha{
-    height: 80%;
-    border-radius: 10px;
-    background-color: #25947c86;
-    
-}
+
 span#senha{
     color: white;
     font-size: 2em;
     border-style: none;
     margin-top: 2px;
-    margin-left: 5px;
+    margin-left: 2px;
 }
 input#enviar{
     width: 90%;
@@ -123,11 +126,12 @@ input#enviar{
     padding: 10px;
     cursor: pointer;
     box-shadow: 1px 1px 1px #0000009a;
+    border: 1px solid rgba(0, 0, 0, 0.425);
     
     
 }
 input#enviar:hover{
-    background-color: #25917aab;
+    background-color: #1d7562f6;
 }
 input#esqueci{
     width: 90%;
@@ -138,7 +142,7 @@ input#esqueci{
     color: black;
     font-weight: lighter;
     border-radius: 10px;
-    border: 1px solid lightgray;
+    border: 1px solid rgba(0, 0, 0, 0.425);
     padding: 10px;
     cursor: pointer;
     box-shadow: 1px 1px 1px #0000009a;
@@ -146,5 +150,5 @@ input#esqueci{
     
 }
 input#esqueci:hover{
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(224, 223, 223);
 }

@@ -17,24 +17,24 @@
             </div>
             <div id="form">
                 <h1>Login</h1>
-                <p id="txt">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçòes no seu ambiente</p>
+                <p id="txt">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="login.php" method="post">
                     <p id="dado1">
                         <label for="imail"><span id="person" class="material-symbols-outlined">
                             person
                             </span></label>
-                        <input type="text" name="mail" id="imail">
+                        <input class="btn" type="text" name="mail" id="imail" required minlength="30" autocomplete="email" placeholder="Seu e-mail">
                     </p>
                     <p id="dado2">
                         <label for="isenha"><span id="senha" class="material-symbols-outlined">
                             vpn_key
                             </span></label>
-                        <input type="password" name="senha" id="isenha">
+                        <input class="btn" type="password" name="senha" id="isenha" required minlength="8" autocomplete="new-password" placeholder="Sua senha">
                     </p>
                     <p>
                         <input id="enviar" type="submit" value="Enviar">
                     </p>
-                    <p>
+                    <p >
                         <input id="esqueci" type="submit" value="Esqueci a senha &#9993;">
                     </p>
                 </form>
