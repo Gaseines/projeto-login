@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/*
+Preto
+Branco
+Verde: #14552D
+Roxo:#480072
+
+*/
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-color: #480072;
+    
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    
+}
+section#login{
+    background-color: white;
+    width: 300px;
+    height: 545px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div#imagem{
+    background: #480072 url(../imagens/pexels-oleksandr-tiupa-192136\ \(1\).jpg);
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: inset 6px 6px 13px 5px #00000083;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    
+}
+div#form{
+    display: block;
+}
+
+div#form h1{
+    text-align: center;
+    font-size: 2.0em;
+    margin-top: 10px;
+}
+p#txt{
+    padding: 10px;
+}
+div#form p#dado1{
+    background-color: #480072;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    height: 40px;
+    box-shadow: 1px 1px 3px black;
+}
+input#imail{
+    height: 80%;
+    border-radius: 10px;
+    background-color: #25947c86;
+    
+}
+span#person{
+    color: white;
+    font-size: 2em;
+    border-style: none;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+div#form p#dado2{
+    background-color: #480072;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px #0000009a;
+}
+
+input#isenha{
+    height: 80%;
+    border-radius: 10px;
+    background-color: #25947c86;
+    
+}
+span#senha{
+    color: white;
+    font-size: 2em;
+    border-style: none;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+input#enviar{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.0em;
+    background-color: #259179f6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #0000009a;
+    
+    
+}
+input#enviar:hover{
+    background-color: #25917aab;
+}
+input#esqueci{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.0em;
+    background-color: white;
+    color: black;
+    font-weight: lighter;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #0000009a;
+    
+    
+}
+input#esqueci:hover{
+    background-color: rgb(189, 189, 189);
+}
